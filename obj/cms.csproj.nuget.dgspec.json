@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\FERNANDODASILVASALGA\\cms\\cms.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\FERNANDODASILVASALGA\\cms\\cms.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\FERNANDODASILVASALGA\\cms\\cms.csproj",
+        "projectName": "cms",
+        "projectPath": "C:\\Users\\FERNANDODASILVASALGA\\cms\\cms.csproj",
+        "packagesPath": "C:\\Users\\FERNANDODASILVASALGA\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\FERNANDODASILVASALGA\\cms\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\FERNANDODASILVASALGA\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Piranha": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Piranha.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Piranha.AspNetCore.Identity.SQLite": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Piranha.AttributeBuilder": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Piranha.Data.EF.SQLite": {
+              "target": "Package",
+              "version": "[8.1.2, )"
+            },
+            "Piranha.ImageSharp": {
+              "target": "Package",
+              "version": "[8.1.0-rc1, )"
+            },
+            "Piranha.Local.FileStorage": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Piranha.Manager": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Piranha.Manager.TinyMCE": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
